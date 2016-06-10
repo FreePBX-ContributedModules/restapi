@@ -1,0 +1,92 @@
+<module>
+	<rawname>restapi</rawname>
+	<repo>standard</repo>
+	<name>REST API</name>
+	<version>13.0.18.6</version>
+	<publisher>Sangoma Technologies Corporation</publisher>
+	<license>AGPLv3</license>
+	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
+	<category>Admin</category>
+	<description>RESTful API module for your PBX.</description>
+	<menuitems>
+		<restapi>REST API</restapi>
+		<restapi_logs category="Reports">REST API Report</restapi_logs>
+	</menuitems>
+	<changelog>
+		*13.0.18.6* Remove portions
+		*13.0.18.5* Try catch everything during install
+		*13.0.18.4* Remove en_US Translations
+		*13.0.18.3* Temporary fix for undefined functions
+		*13.0.18.2* Remove Zend licensing.
+		*13.0.17* Add support for getting queue members for every queue at once.
+		*13.0.16* Increase size of allowed modules.
+		*13.0.15* FREEPBX-10982
+		*13.0.14* Fix group permissions in User Manager
+		*13.0.13* Fix permission management in User Manager
+		*13.0.12* During group updates check for proper license/functions
+		*13.0.11* Allow disabling of request logging.
+		*13.0.10.1* Fix an issue with empty route maps.
+		*13.0.9* Fix a few places where contactmanager returns no data.
+		*13.0.8* FREEPBX-9763 reports - rest api report - Zend Mis-Configuration
+		*13.0.7* FREEPBX-9659 fix licensing on rest api
+		*13.0.6* FREEPBX-9669 PHP Error when deleting extension
+		*13.0.5* Fix integration with CoS in the case where all contactmanager groups are denied.
+		*13.0.4* Fixed issue with unable to migrate if theres no license
+		*13.0.2* Version bump Beta
+		*13.0.1alpha10* Fix general page
+		*13.0.1alpha7* Packaging of ver 13.0.1alpha2
+		13.0.1alpha6 Dont load licensed files if not licensed
+		13.0.1alpha4 Use better IncludeIf
+		13.0.1alpha3 Group support in 13
+		2.11.1.28 Depend on Core
+		2.11.1.27 Automatically clear logs after 30 days.
+		2.11.1.26 Add indexes for logs, to speed reporting.
+		2.11.1.25 Get assigned extensions in userman/users/
+		2.11.1.24 Fix saving of rate limits via userman.
+		2.11.1.23 Expand functionality of Class of Service.
+		2.11.1.21 Add support for contactmanager.
+		2.11.1.20 Add support for userman.
+		2.11.1.19 Fixes for userman buttons using jqueryui
+		2.11.1.18 Show settings in userman on user creation
+		2.11.1.16 Fix for upcoming userman module update
+		2.11.1.15 Add support for changing voicemail password.
+		2.11.1.13 Sales Cleanup
+		2.11.1.12 Add support for queues.
+		2.11.1.9 Rinse and Repeat
+		2.11.1.8 Fix rare usermanager preload error bug
+		2.11.1.7 Add support for timeconditions.
+		2.11.1.4 Add support for daynight and cos.
+		2.11.1.3 Name and Description are per user now, not per token
+		2.11.1.2 Moved Pages related to User Manager out of RestAPI
+		2.11.1.1 Fixes for User Manager
+		2.11.1.0 Now using FreePBX User Manager
+		2.11.0.18 Add support for call forward.
+		2.11.0.17 Add presence state preferences.
+		2.11.0.16 Add support for presence state.
+		2.11.0.15 Internal Release
+		2.11.0.14 Add support for login and logout.
+		2.11.0.13 Add support for conference room management
+		2.11.0.10 Add ablity to request list of all extensions
+		2.11.0.9 Fix misc reported bugs
+		2.11.0.8 Add unlicensed landing page
+		2.11.0.5 first publish!
+	</changelog>
+	<depends>
+		<module>userman ge 2.11.0beta2</module>
+		<module>core</module>
+	</depends>
+	<supported>
+		<version>13.0</version>
+	</supported>
+	<hooks>
+		<userman class="Userman" namespace="FreePBX\modules">
+			<method callingMethod="delGroup" class="Restapi" namespace="FreePBX\modules">usermanDelGroup</method>
+			<method callingMethod="addGroup" class="Restapi" namespace="FreePBX\modules">usermanAddGroup</method>
+			<method callingMethod="updateGroup" class="Restapi" namespace="FreePBX\modules">usermanUpdateGroup</method>
+			<method callingMethod="delUser" class="Restapi" namespace="FreePBX\modules">usermanDelUser</method>
+			<method callingMethod="addUser" class="Restapi" namespace="FreePBX\modules">usermanAddUser</method>
+			<method callingMethod="updateUser" class="Restapi" namespace="FreePBX\modules">usermanUpdateUser</method>
+			<method callingMethod="myShowPage" class="Restapi" namespace="FreePBX\modules">usermanShowPage</method>
+		</userman>
+	</hooks>
+</module>

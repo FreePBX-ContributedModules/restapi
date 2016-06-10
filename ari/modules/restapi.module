@@ -1,0 +1,100 @@
+<?php
+
+/**
+ * @file
+ * Functions for the interface to the call monitor recordings
+ */
+
+/**
+  * Class for restapi
+  */
+class restapi {
+
+
+  /*
+   * rank (for prioritizing modules)
+   */
+  function rank(){
+	return 9;
+  }
+
+  /*
+   * init
+   */
+  function init(){ }
+
+	/*
+	* Adds menu item to nav menu
+	*
+	* @param $args
+	*   Common arguments
+	*/
+	function navMenu($args){
+		return "<small><small><a href='" 
+				. $_SESSION['ARI_ROOT'] 
+				. "?m=restapi&f=display'>" 
+				. _("RESTapi") 
+				. "</a></small></small>";
+	}
+
+
+  /*
+   * Acts on the user settings
+   *
+   * @param $args
+   *   Common arguments
+   * @param $a
+   *   action
+   */
+  function action($args) {
+	dbug('args', $args);
+
+	$user = $_SESSION['ari_user']['extension'];
+	$args['action'] = isset($args['action']) ? $args['action'] : '';
+
+	switch ($args['action']) {
+		case 'save':
+			foreach ($args['token_status'] as $token => $status) {
+				$t = restapi_tokens_get($token);
+				
+				//nothing to do if we didn't find the token
+				if (!$t) {
+					continue;
+				}
+
+				//ensure the token is associated with this user
+				if (restapi_user_get_token_user($token) != $user) {
+					continue;
+				}
+
+				//update status
+				$t['token_status'] = $status;
+				
+				//save
+				restapi_tokens_put($t);
+			}
+			break;
+		default:
+			break;
+	}
+	$ret = $this->display($args);
+	return $ret;
+  }
+
+/*
+	* Displays stats page
+	*
+	* @param $args
+	*   Common arguments
+	*/
+	function display($args) {
+		global $amp_conf, $faxpro, $db;
+
+		$user 				= $_SESSION['ari_user']['extension'];
+		$vars['tokens']		= restapi_user_get_user_tokens($user);
+		return load_view(dirname(__FILE__) . '/../views/tokens.php', $vars);
+		
+	}
+} // class
+
+?>

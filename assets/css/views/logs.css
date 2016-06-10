@@ -1,0 +1,49 @@
+.log_events {
+	display: none;
+}
+.datahelp, .localtime {
+	font-size:xx-small;
+	font-weight: normal;
+}
+
+.hashtr {
+	display:inline-block;
+	width: 125px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	/*show just the tail end of the string*/
+	/*unicode-bidi: bidi-override;*/
+	direction: rtl;
+}
+.hashtr_hover {
+	unicode-bidi: normal;
+	direction: ltr;
+}
+/****** table styling log*****/
+#log_table_parent {
+	border-collapse:collapse;
+}
+#log_table_parent td{
+	/*border-spacing: 10px 10px;*/
+	padding: 8px 10px;
+}
+#log_table_parent .hover:hover {
+	background-color: #CCC;
+}
+
+/****** table styling events*****/
+#log_table_events {
+	font-size: 10pt;
+}
+#log_table_events td {
+	vertical-align:top;
+}
+
+.event_data {
+	height: 50px;
+	overflow-y: scroll;
+}
+
+.log_raw_time, .log_event {
+	white-space: nowrap;
+}
