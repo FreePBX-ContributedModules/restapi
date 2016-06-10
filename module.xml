@@ -2,7 +2,7 @@
 	<rawname>restapi</rawname>
 	<repo>standard</repo>
 	<name>REST API</name>
-	<version>13.0.18.6</version>
+	<version>13.0.19</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>AGPLv3</license>
 	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
@@ -13,6 +13,7 @@
 		<restapi_logs category="Reports">REST API Report</restapi_logs>
 	</menuitems>
 	<changelog>
+		*13.0.19* Open Source Module: https://www.freepbx.org/sangomas-commitment-to-open-source/
 		*13.0.18.6* Remove portions
 		*13.0.18.5* Try catch everything during install
 		*13.0.18.4* Remove en_US Translations
