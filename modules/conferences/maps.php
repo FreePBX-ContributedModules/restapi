@@ -12,4 +12,10 @@ $this->add_map('get', '/conferences/:id', 'conferences', array(
         'method'        => 'get_conference_id',
 ));
 
+$this->add_map('delete', '/conferences/:id', 'conferences', array(
+        'path'          => 'conferences.php',
+        'controller'=> 'restapi_Conferences',
+        'method'        => 'delete_conference_id',
+));
+
 ?>

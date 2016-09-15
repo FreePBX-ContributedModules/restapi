@@ -39,4 +39,13 @@ class restapi_Conferences {
 
 		return $conference ? $conference : false;
 	}
+
+	/**
+	* @verb DELETE
+	* @returns - true if the conference was deleted, false otherwise
+	* @uri /conference/:id
+	*/
+	function delete_conference_id($params) {
+		return conferences_del($params['id']);
+	}
 }
