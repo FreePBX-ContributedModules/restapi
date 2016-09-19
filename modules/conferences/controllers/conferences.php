@@ -45,7 +45,18 @@ class restapi_Conferences {
 	* @returns - true if the conference was deleted, false otherwise
 	* @uri /conference/:id
 	*/
-	function delete_conference_id($params) {
+	function delete_conference_id($params)
+	{
 		return conferences_del($params['id']);
+	}
+
+	/**
+	* @verb PUT
+	* @uri /conference/:id
+	*/
+	function put_conference_id($params)
+	{
+		conferences_del($params['id']);
+		return conferences_add($params["id"], $params["name"], $params["userpin"], $params["adminpin"], $params["options"], $params["joinmsg_id"], $params["music"], $params["users"]);
 	}
 }
