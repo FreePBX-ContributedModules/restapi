@@ -2,9 +2,7 @@
 // bootstrap freepbx
 $bootstrap_settings['freepbx_auth'] = false;
 $restrict_mods = array('restapi' => true);
-if (!@include_once(getenv('FREEPBX_CONF') ? getenv('FREEPBX_CONF') : '/etc/freepbx.conf')) { 
-	include_once('/etc/asterisk/freepbx.conf'); 
-}
+include '/etc/freepbx.conf';
 
 $api = new Api;
 $get = array(
