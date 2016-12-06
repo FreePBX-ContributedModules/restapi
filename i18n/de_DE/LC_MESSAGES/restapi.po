@@ -10,13 +10,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-10 12:05-0700\n"
-"PO-Revision-Date: 2015-08-20 20:15-0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2016-12-06 17:36+0200\n"
+"Last-Translator: Sven <spiderrs4@web.de>\n"
+"Language-Team: German "
+"<http://weblate.freepbx.org/projects/freepbx/restapi/de_DE/>\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.4\n"
 
 #: views/token.php:87
 msgid "Accounting"
@@ -32,105 +35,105 @@ msgstr ""
 
 #: restapi.i18n.php:6 restapi.i18n.php:12
 msgid "Admin"
-msgstr ""
+msgstr "Administrator"
 
 #: Restapi.class.php:528
 msgid "All"
-msgstr ""
+msgstr "Alles"
 
 #: views/token.php:65
 msgid "Allow"
-msgstr ""
+msgstr "Erlauben"
 
 #: views/token.php:25
 msgid "Associated User"
-msgstr ""
+msgstr "Zugehöriger Benutzer"
 
 #: views/token.php:34
 msgid "Authentication"
-msgstr ""
+msgstr "Authentifizierung"
 
 #: views/token.php:76
 msgid "Authorization"
-msgstr ""
+msgstr "Genehmigung"
 
 #: views/log_report.php:60
 msgid "Data"
-msgstr ""
+msgstr "Daten"
 
 #: views/token.php:105
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 #: views/token.php:54
 msgid "Deny"
-msgstr ""
+msgstr "Verweigern"
 
 #: views/token.php:19
 msgid "Description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: views/page.restapi.php:71
 msgid "Desired status of the server"
-msgstr ""
+msgstr "Gewünschter Status des Servers"
 
 #: ari/views/tokens.php:27 views/page.restapi.php:62
 #: views/page.restapi.php:127 views/token.php:48
 msgid "Disabled"
-msgstr ""
+msgstr "Deaktiviert"
 
 #: views/page.restapi.php:61
 msgid "Down for Maintence"
-msgstr ""
+msgstr "Wegen Wartungsarbeiten außer Betrieb"
 
 #: views/hook_userman.php:44
 msgid "Enable RestAPI for this user"
-msgstr ""
+msgstr "Aktiviert RestAPI für diesen Benutzer"
 
 #: ari/views/tokens.php:26 views/hook_userman.php:23 views/page.restapi.php:59
 #: views/page.restapi.php:126 views/token.php:47
 msgid "Enabled"
-msgstr ""
+msgstr "Aktiviert"
 
 #: views/log_report.php:59
 msgid "Event"
-msgstr ""
+msgstr "Ereignis"
 
 #: views/hook_userman.php:54
 msgid "Extensions"
-msgstr ""
+msgstr "Nebenstellen"
 
 #: views/rnav.php:4
 msgid "General Settings"
-msgstr ""
+msgstr "Allgemeine Einstellungen"
 
 #: views/token.php:54
 msgid "Gloabl IP address blacklist"
-msgstr ""
+msgstr "Globale IP Adresse Sperrliste"
 
 #: views/token.php:65
 msgid "Gloabl IP address whitelist"
-msgstr ""
+msgstr "Globale IP Adresse Whitelist"
 
 #: views/log_report.php:26
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: views/log_report.php:33
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: views/hook_userman.php:34
 msgid "Inherit"
-msgstr ""
+msgstr "Erben"
 
 #: views/log_report.php:28
 msgid "Localized"
-msgstr ""
+msgstr "Lokalisiert"
 
 #: views/log_report.php:29
 msgid "Localizing..."
-msgstr ""
+msgstr "Lokalisierung..."
 
 #: Restapi.class.php:137
 msgid "Modifying data type of value field in the restapi_token_details table"
@@ -138,27 +141,27 @@ msgstr ""
 
 #: views/hook_userman.php:81 views/token.php:83
 msgid "Modules"
-msgstr ""
+msgstr "Module"
 
 #: views/token.php:83
 msgid "Modules this token may read and write"
-msgstr ""
+msgstr "Module dieses Token können lesen und schreiben"
 
 #: views/token.php:16
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: views/hook_userman.php:31
 msgid "No"
-msgstr ""
+msgstr "Nein"
 
 #: views/log_report.php:14
 msgid "No Data Found!"
-msgstr ""
+msgstr "Keine Daten gefunden!"
 
 #: ari/views/tokens.php:8
 msgid "No tokens associated with this user"
-msgstr ""
+msgstr "Dieser Benutzer ist mit keinem Token verbunden"
 
 #: views/hook_userman.php:120 views/token.php:90
 msgid "Quantity of API requests this token can make per hour"
@@ -166,81 +169,84 @@ msgstr ""
 
 #: restapi.i18n.php:4 restapi.i18n.php:10
 msgid "REST API"
-msgstr ""
+msgstr "REST API"
 
 #: views/log_report.php:4
 msgid "REST API Log"
-msgstr ""
+msgstr "REST API Protokoll"
 
 #: restapi.i18n.php:14
 msgid "REST API Report"
-msgstr ""
+msgstr "REST API Bericht"
 
 #: views/token.php:4
 msgid "REST API Token"
-msgstr ""
+msgstr "REST API Token"
 
 #: restapi.i18n.php:8
 msgid "RESTful API module for your PBX."
-msgstr ""
+msgstr "RESTful API Modul für Ihr PBX."
 
 #: views/hook_userman.php:108 views/token.php:90
 msgid "Rate Limit"
-msgstr ""
+msgstr "Bewertungslimit"
 
 #: restapi.i18n.php:16
 msgid "Reports"
-msgstr ""
+msgstr "Berichte"
 
 #: views/page.restapi.php:121
 msgid "Request Logging"
-msgstr ""
+msgstr "Anforderungsprotokollierung"
 
 #: Restapi.class.php:571 views/page.restapi.php:34
 msgid "Rest API"
-msgstr ""
+msgstr "Rest API"
 
 #: views/page.restapi.php:42
 msgid ""
 "Rest API is used to manage API tokens for use in modules such as Rest Apps "
 "for your phones. From here you can edit general settings."
 msgstr ""
+"Rest API wird verwendet, um API-Token für den Einsatz in Modulen wie Rest "
+"Apps für Ihre Telefone zu verwalten. Hier können Sie allgemeine "
+"Einstellungen bearbeiten."
 
 #: ari/views/tokens.php:38
 msgid "Save"
-msgstr ""
+msgstr "Speichern"
 
 #: views/log_report.php:34
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: views/page.restapi.php:54
 msgid "Server Status"
-msgstr ""
+msgstr "Server Status"
 
 #: views/page.restapi.php:81 views/page.restapi.php:91
 msgid "Server Token"
-msgstr ""
+msgstr "Server Token"
 
 #: views/page.restapi.php:101 views/page.restapi.php:111
 msgid "Server Token Key"
-msgstr ""
+msgstr "Server Token Schlüssel"
 
 #: views/log_report.php:32
 msgid "Signature"
-msgstr ""
+msgstr "Signatur"
 
 #: ari/views/tokens.php:34 views/token.php:45
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: Restapi.class.php:24 views/token.php:103
 msgid "Submit"
-msgstr ""
+msgstr "Bestätigen"
 
 #: views/page.restapi.php:60
 msgid "Temporarly Disabed"
-msgstr ""
+msgstr "Temporär deaktiviert"
 
 #: views/hook_userman.php:9
 msgid ""
@@ -252,20 +258,20 @@ msgstr ""
 
 #: views/log_report.php:27 views/log_report.php:58
 msgid "Time"
-msgstr ""
+msgstr "Zeit"
 
 #: ari/views/tokens.php:23 ari/views/tokens.php:32 views/log_report.php:31
 #: views/token.php:37
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 #: ari/views/tokens.php:33 views/token.php:41
 msgid "Token Key"
-msgstr ""
+msgstr "Token Schlüssel"
 
 #: ari/views/tokens.php:4
 msgid "Tokens"
-msgstr ""
+msgstr "Tokens"
 
 #: Restapi.class.php:109
 msgid "Unable to add index to e_id field in restapi_log_event_details table"
@@ -282,11 +288,11 @@ msgstr ""
 
 #: views/token.php:23
 msgid "User"
-msgstr ""
+msgstr "Benutzer"
 
 #: Restapi.class.php:494
 msgid "User Primary Extension"
-msgstr ""
+msgstr "Primäre Benutzernebenstelle"
 
 #: views/token.php:26
 msgid ""
@@ -297,42 +303,44 @@ msgstr ""
 
 #: views/token.php:79
 msgid "Users"
-msgstr ""
+msgstr "Benutzer"
 
 #: views/token.php:79
 msgid "Users whos data this token may read and write"
-msgstr ""
+msgstr "Benutzer, deren Daten mit diesem Token lesen und schreiben können."
 
 #: views/page.restapi.php:38
 msgid "What is Rest API"
-msgstr ""
+msgstr "Was ist Rest API?"
 
 #: views/hook_userman.php:4
 msgid "What is RestAPI"
-msgstr ""
+msgstr "Was ist RestAPI?"
 
 #: views/page.restapi.php:136
 msgid ""
 "Whether to log requests to/from the server. This can be a very large amount "
 "of data."
 msgstr ""
+"Unabhängig davon, ob Anfragen zu/vom Server Protokolliert werden. Dies kann "
+"eine sehr große Datenmenge sein."
 
 #: views/hook_userman.php:71
 msgid "Which extensions this user can control"
-msgstr ""
+msgstr "Welche Nebenstelle dieser Benutzer steuern kann."
 
 #: views/hook_userman.php:98
 msgid "Which modules this user can control"
-msgstr ""
+msgstr "Welche Module dieser Benutzer steuern kann."
 
 #: views/hook_userman.php:29
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: views/log_report.php:60
 msgid "click on data to expand"
-msgstr ""
+msgstr "Klicken Sie auf die zu erweiternden Daten."
 
 #: views/token.php:97
 msgid "requests per hour"
-msgstr ""
+msgstr "Anfrage pro Stunde."
