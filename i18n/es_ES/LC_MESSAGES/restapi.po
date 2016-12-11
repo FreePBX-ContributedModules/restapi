@@ -10,28 +10,28 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-06-10 12:05-0700\n"
-"PO-Revision-Date: 2016-01-27 00:05+0200\n"
-"Last-Translator: Rodrigo <rodrigo.reza@neocenter.com>\n"
-"Language-Team: Spanish <http://weblate.freepbx.org/projects/fpbxc/restapi/"
-"es_ES/>\n"
+"PO-Revision-Date: 2016-12-11 08:51+0200\n"
+"Last-Translator: Ernesto <ecasas@sangoma.com>\n"
+"Language-Team: Spanish "
+"<http://weblate.freepbx.org/projects/freepbx/restapi/es_ES/>\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es_ES\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.2-dev\n"
+"X-Generator: Weblate 2.4\n"
 
 #: views/token.php:87
 msgid "Accounting"
-msgstr ""
+msgstr "Contabilidad"
 
 #: Restapi.class.php:112
 msgid "Adding index to e_id field in the restapi_log_event_details table"
-msgstr ""
+msgstr "Adición de índice al campo e_id en la tabla restapi_log_event_details"
 
 #: Restapi.class.php:125
 msgid "Adding index to time field in the restapi_log_events table"
-msgstr ""
+msgstr "Adición de índice al campo de tiempo en la tabla restapi_log_events"
 
 #: restapi.i18n.php:6 restapi.i18n.php:12
 msgid "Admin"
@@ -47,19 +47,19 @@ msgstr "Permitir"
 
 #: views/token.php:25
 msgid "Associated User"
-msgstr ""
+msgstr "Usuario Asociado"
 
 #: views/token.php:34
 msgid "Authentication"
-msgstr ""
+msgstr "Autenticación"
 
 #: views/token.php:76
 msgid "Authorization"
-msgstr ""
+msgstr "Autorización"
 
 #: views/log_report.php:60
 msgid "Data"
-msgstr ""
+msgstr "Datos"
 
 #: views/token.php:105
 msgid "Delete"
@@ -75,7 +75,7 @@ msgstr "Descripción"
 
 #: views/page.restapi.php:71
 msgid "Desired status of the server"
-msgstr ""
+msgstr "Estado deseado del servidor"
 
 #: ari/views/tokens.php:27 views/page.restapi.php:62
 #: views/page.restapi.php:127 views/token.php:48
@@ -84,11 +84,11 @@ msgstr "Deshabilitado"
 
 #: views/page.restapi.php:61
 msgid "Down for Maintence"
-msgstr ""
+msgstr "Fuera de servicio por mantenimiento"
 
 #: views/hook_userman.php:44
 msgid "Enable RestAPI for this user"
-msgstr ""
+msgstr "Habilitar RestAPI para este usuario"
 
 #: ari/views/tokens.php:26 views/hook_userman.php:23 views/page.restapi.php:59
 #: views/page.restapi.php:126 views/token.php:47
@@ -97,7 +97,7 @@ msgstr "Habilitado"
 
 #: views/log_report.php:59
 msgid "Event"
-msgstr ""
+msgstr "Evento"
 
 #: views/hook_userman.php:54
 msgid "Extensions"
@@ -105,20 +105,19 @@ msgstr "Extensiones"
 
 #: views/rnav.php:4
 msgid "General Settings"
-msgstr ""
+msgstr "Configuración general"
 
 #: views/token.php:54
 msgid "Gloabl IP address blacklist"
-msgstr ""
+msgstr "Lista negra de direcciones IP globales"
 
 #: views/token.php:65
 msgid "Gloabl IP address whitelist"
-msgstr ""
+msgstr "Lista blanca de direcciones IP globales"
 
 #: views/log_report.php:26
-#, fuzzy
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 #: views/log_report.php:33
 msgid "IP"
@@ -130,23 +129,25 @@ msgstr "Heredar"
 
 #: views/log_report.php:28
 msgid "Localized"
-msgstr ""
+msgstr "Localizado"
 
 #: views/log_report.php:29
 msgid "Localizing..."
-msgstr ""
+msgstr "Localizando..."
 
 #: Restapi.class.php:137
 msgid "Modifying data type of value field in the restapi_token_details table"
 msgstr ""
+"Modificar el tipo de datos del campo de valor en la tabla "
+"restapi_token_details"
 
 #: views/hook_userman.php:81 views/token.php:83
 msgid "Modules"
-msgstr ""
+msgstr "Modulos"
 
 #: views/token.php:83
 msgid "Modules this token may read and write"
-msgstr ""
+msgstr "Módulos que este símbolo puede leer y escribir"
 
 #: views/token.php:16
 msgid "Name"
@@ -158,39 +159,39 @@ msgstr "No"
 
 #: views/log_report.php:14
 msgid "No Data Found!"
-msgstr ""
+msgstr "No Datos encontrados!"
 
 #: ari/views/tokens.php:8
 msgid "No tokens associated with this user"
-msgstr ""
+msgstr "No Tokens asociados a este usuario"
 
 #: views/hook_userman.php:120 views/token.php:90
 msgid "Quantity of API requests this token can make per hour"
-msgstr ""
+msgstr "Cantidad de solicitudes de API que este símbolo puede generar por hora"
 
 #: restapi.i18n.php:4 restapi.i18n.php:10
 msgid "REST API"
-msgstr ""
+msgstr "REST API"
 
 #: views/log_report.php:4
 msgid "REST API Log"
-msgstr ""
+msgstr "REST API Log"
 
 #: restapi.i18n.php:14
 msgid "REST API Report"
-msgstr ""
+msgstr "REST API Reporte"
 
 #: views/token.php:4
 msgid "REST API Token"
-msgstr ""
+msgstr "REST API Token"
 
 #: restapi.i18n.php:8
 msgid "RESTful API module for your PBX."
-msgstr ""
+msgstr "RESTful API modulo para su PBX."
 
 #: views/hook_userman.php:108 views/token.php:90
 msgid "Rate Limit"
-msgstr ""
+msgstr "Tasa Limite"
 
 #: restapi.i18n.php:16
 msgid "Reports"
@@ -198,17 +199,20 @@ msgstr "Reportes"
 
 #: views/page.restapi.php:121
 msgid "Request Logging"
-msgstr ""
+msgstr "Solicitud de Registro"
 
 #: Restapi.class.php:571 views/page.restapi.php:34
 msgid "Rest API"
-msgstr ""
+msgstr "Rest API"
 
 #: views/page.restapi.php:42
 msgid ""
 "Rest API is used to manage API tokens for use in modules such as Rest Apps "
 "for your phones. From here you can edit general settings."
 msgstr ""
+"Rest API se utiliza para administrar tokens de API para su uso en módulos "
+"como Rest Apps para sus teléfonos. Desde aquí puede editar la configuración "
+"general."
 
 #: ari/views/tokens.php:38
 msgid "Save"
@@ -216,23 +220,23 @@ msgstr "Guardar"
 
 #: views/log_report.php:34
 msgid "Server"
-msgstr ""
+msgstr "Servidor"
 
 #: views/page.restapi.php:54
 msgid "Server Status"
-msgstr ""
+msgstr "Estado de Servidor"
 
 #: views/page.restapi.php:81 views/page.restapi.php:91
 msgid "Server Token"
-msgstr ""
+msgstr "Token de Servidor"
 
 #: views/page.restapi.php:101 views/page.restapi.php:111
 msgid "Server Token Key"
-msgstr ""
+msgstr "Llave Token del servidor"
 
 #: views/log_report.php:32
 msgid "Signature"
-msgstr ""
+msgstr "Firma"
 
 #: ari/views/tokens.php:34 views/token.php:45
 msgid "Status"
@@ -244,7 +248,7 @@ msgstr "Enviar"
 
 #: views/page.restapi.php:60
 msgid "Temporarly Disabed"
-msgstr ""
+msgstr "temporalmente Deshabilitado"
 
 #: views/hook_userman.php:9
 msgid ""
@@ -253,6 +257,11 @@ msgid ""
 "requires the Commercial End Point Manager to configure your devices as it "
 "needs to receive data from EPM for most applications to work correctly. "
 msgstr ""
+"Esta sección se utiliza junto con las aplicaciones de teléfono RESTful. El "
+"módulo RESTful Phone Apps le da acceso a una amplia gama de aplicaciones del "
+"lado del teléfono. Requiere que el Administrador de EPM configure sus "
+"dispositivos, ya que necesita recibir datos de EPM para que la mayoría de "
+"las aplicaciones funcionen correctamente. "
 
 #: views/log_report.php:27 views/log_report.php:58
 msgid "Time"
@@ -261,37 +270,42 @@ msgstr "Tiempo"
 #: ari/views/tokens.php:23 ari/views/tokens.php:32 views/log_report.php:31
 #: views/token.php:37
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 #: ari/views/tokens.php:33 views/token.php:41
 msgid "Token Key"
-msgstr ""
+msgstr "Llave de Token"
 
 #: ari/views/tokens.php:4
 msgid "Tokens"
-msgstr ""
+msgstr "Tokens"
 
 #: Restapi.class.php:109
 msgid "Unable to add index to e_id field in restapi_log_event_details table"
 msgstr ""
+"No se puede agregar el índice al campo e_id en la tabla "
+"restapi_log_event_details"
 
 #: Restapi.class.php:122
 msgid "Unable to add index to time field in restapi_log_events table"
 msgstr ""
+"No se puede agregar el índice al campo de tiempo en la tabla "
+"restapi_log_events"
 
 #: Restapi.class.php:135
 msgid ""
 "Unable to modify data type of value field in restapi_token_details table"
 msgstr ""
+"No se puede modificar el tipo de datos del campo de valor en la tabla "
+"restapi_token_details"
 
 #: views/token.php:23
 msgid "User"
 msgstr "Usuario"
 
 #: Restapi.class.php:494
-#, fuzzy
 msgid "User Primary Extension"
-msgstr "Usuario primario de Extensión"
+msgstr "Extensión Primaria del Usuario"
 
 #: views/token.php:26
 msgid ""
@@ -299,6 +313,9 @@ msgid ""
 "be visable to the user in the user portal. Key will be deleted if/when user "
 "is"
 msgstr ""
+"El usuario debe asociar esta clave. Mostrará la clave en la página de "
+"usuario y será visible para el usuario en el portal de usuario. La tecla se "
+"borrará si/cuando el usuario está"
 
 #: views/token.php:79
 msgid "Users"
@@ -306,29 +323,31 @@ msgstr "Usuarios"
 
 #: views/token.php:79
 msgid "Users whos data this token may read and write"
-msgstr ""
+msgstr "Usuarios cuyos datos este token puede leer y escribir"
 
 #: views/page.restapi.php:38
 msgid "What is Rest API"
-msgstr ""
+msgstr "Que es Rest API"
 
 #: views/hook_userman.php:4
 msgid "What is RestAPI"
-msgstr ""
+msgstr "Que es RestAPI"
 
 #: views/page.restapi.php:136
 msgid ""
 "Whether to log requests to/from the server. This can be a very large amount "
 "of data."
 msgstr ""
+"Si se deben registrar solicitudes desde/hacia el servidor. Esto puede ser "
+"una cantidad muy grande de datos."
 
 #: views/hook_userman.php:71
 msgid "Which extensions this user can control"
-msgstr ""
+msgstr "Qué extensiones puede controlar este usuario"
 
 #: views/hook_userman.php:98
 msgid "Which modules this user can control"
-msgstr ""
+msgstr "Qué módulos puede controlar este usuario"
 
 #: views/hook_userman.php:29
 msgid "Yes"
@@ -336,8 +355,8 @@ msgstr "Si"
 
 #: views/log_report.php:60
 msgid "click on data to expand"
-msgstr ""
+msgstr "Haga clic en los datos para expandir"
 
 #: views/token.php:97
 msgid "requests per hour"
-msgstr ""
+msgstr "Peticiones por hora"
