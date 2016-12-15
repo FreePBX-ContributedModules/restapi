@@ -174,6 +174,10 @@ function restapi_tokens_put($vars) {
 		$vars['token']		= $orig['token'];
 		$vars['tokenkey']	= $orig['tokenkey'];
 	}
+	if($vars['id'] == ''){
+		$vars['id'] = NULL;
+	}
+
 
 	//insert headers
 	$sql = 'REPLACE INTO restapi_tokens (id, name, `desc`) VALUES (?, ?, ?)';
