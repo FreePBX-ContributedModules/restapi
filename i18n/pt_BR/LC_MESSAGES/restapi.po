@@ -9,15 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-10 12:05-0700\n"
+"POT-Creation-Date: 2017-03-30 12:18-0700\n"
 "PO-Revision-Date: 2017-03-08 21:28+0200\n"
 "Last-Translator: Kingvoice <suporte@kingvoice.com.br>\n"
-"Language-Team: Portuguese (Brazil) "
-"<http://weblate.freepbx.org/projects/freepbx/restapi/pt_BR/>\n"
-"Language: pt_BR\n"
+"Language-Team: Portuguese (Brazil) <http://weblate.freepbx.org/projects/"
+"freepbx/restapi/pt_BR/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.4\n"
 
@@ -33,7 +33,7 @@ msgstr "Adicionando índice ao campo e_id na tabela restapi_log_event_details"
 msgid "Adding index to time field in the restapi_log_events table"
 msgstr "Adicionando índice ao campo de tempo na tabela restapi_log_events"
 
-#: restapi.i18n.php:6 restapi.i18n.php:12
+#: restapi.i18n.php:6
 msgid "Admin"
 msgstr "Administrador"
 
@@ -57,7 +57,7 @@ msgstr "Autenticação"
 msgid "Authorization"
 msgstr "Autorização"
 
-#: views/log_report.php:60
+#: views/log_report.php:59
 msgid "Data"
 msgstr "Dados"
 
@@ -95,7 +95,7 @@ msgstr "Habilitar RestAPI para este usuário"
 msgid "Enabled"
 msgstr "Habilitado"
 
-#: views/log_report.php:59
+#: views/log_report.php:58
 msgid "Event"
 msgstr "Evento"
 
@@ -115,11 +115,11 @@ msgstr "Lista negra de endereços IP globais"
 msgid "Gloabl IP address whitelist"
 msgstr "Lista branca de endereços de IP globais"
 
-#: views/log_report.php:26
+#: views/log_report.php:25
 msgid "ID"
 msgstr "ID"
 
-#: views/log_report.php:33
+#: views/log_report.php:32
 msgid "IP"
 msgstr "IP"
 
@@ -127,11 +127,11 @@ msgstr "IP"
 msgid "Inherit"
 msgstr "Herdar"
 
-#: views/log_report.php:28
+#: views/log_report.php:27
 msgid "Localized"
 msgstr "Localizado"
 
-#: views/log_report.php:29
+#: views/log_report.php:28
 msgid "Localizing..."
 msgstr "Localizando..."
 
@@ -156,7 +156,7 @@ msgstr "Nome"
 msgid "No"
 msgstr "Não"
 
-#: views/log_report.php:14
+#: views/log_report.php:13
 msgid "No Data Found!"
 msgstr "Nenhum Dado Encontrado!"
 
@@ -176,7 +176,7 @@ msgstr "REST API"
 msgid "REST API Log"
 msgstr "REST API Log"
 
-#: restapi.i18n.php:14
+#: restapi.i18n.php:12
 msgid "REST API Report"
 msgstr "Relatório REST API"
 
@@ -191,10 +191,6 @@ msgstr "Módulo RESTful API para seuPBX."
 #: views/hook_userman.php:108 views/token.php:90
 msgid "Rate Limit"
 msgstr "Taxa Limite"
-
-#: restapi.i18n.php:16
-msgid "Reports"
-msgstr "Relatórios"
 
 #: views/page.restapi.php:121
 msgid "Request Logging"
@@ -217,7 +213,7 @@ msgstr ""
 msgid "Save"
 msgstr "Salvar"
 
-#: views/log_report.php:34
+#: views/log_report.php:33
 msgid "Server"
 msgstr "Servidor"
 
@@ -233,7 +229,7 @@ msgstr "Token do Servidor"
 msgid "Server Token Key"
 msgstr "Chave Token do Servidor"
 
-#: views/log_report.php:32
+#: views/log_report.php:31
 msgid "Signature"
 msgstr "Assinatura"
 
@@ -262,11 +258,11 @@ msgstr ""
 "Comercial configure seus dispositivos para receber seus dados para que a "
 "maioria dos aplicativos possam funcionar corretamente. "
 
-#: views/log_report.php:27 views/log_report.php:58
+#: views/log_report.php:26 views/log_report.php:57
 msgid "Time"
 msgstr "Horas"
 
-#: ari/views/tokens.php:23 ari/views/tokens.php:32 views/log_report.php:31
+#: ari/views/tokens.php:23 ari/views/tokens.php:32 views/log_report.php:30
 #: views/token.php:37
 msgid "Token"
 msgstr "Token"
@@ -352,10 +348,13 @@ msgstr "Quais módulos este usuário pode controlar"
 msgid "Yes"
 msgstr "Sim"
 
-#: views/log_report.php:60
+#: views/log_report.php:59
 msgid "click on data to expand"
 msgstr "clique nos dados para expandir"
 
 #: views/token.php:97
 msgid "requests per hour"
 msgstr "solicitações por hora"
+
+#~ msgid "Reports"
+#~ msgstr "Relatórios"
