@@ -10,13 +10,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-30 12:18-0700\n"
-"PO-Revision-Date: 2017-03-30 12:18-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-07-13 11:56+0200\n"
+"Last-Translator: PETER <ftek@ymail.com>\n"
+"Language-Team: Vietnamese "
+"<http://weblate.freepbx.org/projects/freepbx/restapi/vi/>\n"
+"Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2.4\n"
 
 #: views/token.php:87
 msgid "Accounting"
@@ -24,60 +27,60 @@ msgstr ""
 
 #: Restapi.class.php:112
 msgid "Adding index to e_id field in the restapi_log_event_details table"
-msgstr ""
+msgstr "Đang thêm chỉ mục đến trường e_id  trong bảng restapi_log_event_details"
 
 #: Restapi.class.php:125
 msgid "Adding index to time field in the restapi_log_events table"
-msgstr ""
+msgstr "Đang thêm chỉ mục đến trường thời gian trong bảng restapi_log_events"
 
 #: restapi.i18n.php:6
 msgid "Admin"
-msgstr ""
+msgstr "Quản trị viên"
 
 #: Restapi.class.php:528
 msgid "All"
-msgstr ""
+msgstr "Tất cả"
 
 #: views/token.php:65
 msgid "Allow"
-msgstr ""
+msgstr "Cho phép"
 
 #: views/token.php:25
 msgid "Associated User"
-msgstr ""
+msgstr "Người dùng liên kết"
 
 #: views/token.php:34
 msgid "Authentication"
-msgstr ""
+msgstr "Xác thực"
 
 #: views/token.php:76
 msgid "Authorization"
-msgstr ""
+msgstr "Ủy quyền"
 
 #: views/log_report.php:59
 msgid "Data"
-msgstr ""
+msgstr "Dữ liệu"
 
 #: views/token.php:105
 msgid "Delete"
-msgstr ""
+msgstr "Xóa"
 
 #: views/token.php:54
 msgid "Deny"
-msgstr ""
+msgstr "Từ chối"
 
 #: views/token.php:19
 msgid "Description"
-msgstr ""
+msgstr "Mô tả"
 
 #: views/page.restapi.php:71
 msgid "Desired status of the server"
-msgstr ""
+msgstr "Tình trạng mô tả của máy chủ"
 
 #: ari/views/tokens.php:27 views/page.restapi.php:62
 #: views/page.restapi.php:127 views/token.php:48
 msgid "Disabled"
-msgstr ""
+msgstr "Đã vô hiệu"
 
 #: views/page.restapi.php:61
 msgid "Down for Maintence"
@@ -85,44 +88,46 @@ msgstr ""
 
 #: views/hook_userman.php:44
 msgid "Enable RestAPI for this user"
-msgstr ""
+msgstr "Kích hoạt RestAPI cho người dùng này"
 
 #: ari/views/tokens.php:26 views/hook_userman.php:23 views/page.restapi.php:59
 #: views/page.restapi.php:126 views/token.php:47
 msgid "Enabled"
-msgstr ""
+msgstr "Đã kích hoạt"
 
 #: views/log_report.php:58
 msgid "Event"
-msgstr ""
+msgstr "Sự kiện"
 
 #: views/hook_userman.php:54
 msgid "Extensions"
-msgstr ""
+msgstr "Các máy nhánh"
 
 #: views/rnav.php:4
 msgid "General Settings"
-msgstr ""
+msgstr "Cài đặt chung"
 
 #: views/token.php:54
 msgid "Gloabl IP address blacklist"
-msgstr ""
+msgstr "Danh sách đen địa chỉ IP Global"
 
 #: views/token.php:65
 msgid "Gloabl IP address whitelist"
 msgstr ""
+"Danh sách trắng ( đối lập với blacklist) các địa chỉ IP Global ( có thể gởi "
+"thông tin)"
 
 #: views/log_report.php:25
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: views/log_report.php:32
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: views/hook_userman.php:34
 msgid "Inherit"
-msgstr ""
+msgstr "Kế thừa"
 
 #: views/log_report.php:27
 msgid "Localized"
@@ -135,46 +140,48 @@ msgstr ""
 #: Restapi.class.php:137
 msgid "Modifying data type of value field in the restapi_token_details table"
 msgstr ""
+"Đang chỉnh sửa kiểu dữ liệu của trường giá trị trong bảng "
+"restapi_token_details"
 
 #: views/hook_userman.php:81 views/token.php:83
 msgid "Modules"
-msgstr ""
+msgstr "Các mô đun"
 
 #: views/token.php:83
 msgid "Modules this token may read and write"
-msgstr ""
+msgstr "Các mô đun mà token có thể đọc và ghi được"
 
 #: views/token.php:16
 msgid "Name"
-msgstr ""
+msgstr "Tên"
 
 #: views/hook_userman.php:31
 msgid "No"
-msgstr ""
+msgstr "Không"
 
 #: views/log_report.php:13
 msgid "No Data Found!"
-msgstr ""
+msgstr "Không có dữ liệu nào được tìm thấy!"
 
 #: ari/views/tokens.php:8
 msgid "No tokens associated with this user"
-msgstr ""
+msgstr "Không có token nào được kết nối với người dùng này"
 
 #: views/hook_userman.php:120 views/token.php:90
 msgid "Quantity of API requests this token can make per hour"
-msgstr ""
+msgstr "Số lượng các yêu cầu API của token này có thể tạo trên mỗi giờ"
 
 #: restapi.i18n.php:4 restapi.i18n.php:10
 msgid "REST API"
-msgstr ""
+msgstr "REST API"
 
 #: views/log_report.php:4
 msgid "REST API Log"
-msgstr ""
+msgstr "REST API Log"
 
 #: restapi.i18n.php:12
 msgid "REST API Report"
-msgstr ""
+msgstr "Báo cáo API REST"
 
 #: views/token.php:4
 msgid "REST API Token"
