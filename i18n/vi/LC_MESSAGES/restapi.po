@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-30 12:18-0700\n"
-"PO-Revision-Date: 2017-07-13 11:56+0200\n"
+"PO-Revision-Date: 2017-07-13 14:22+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese "
 "<http://weblate.freepbx.org/projects/freepbx/restapi/vi/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: views/token.php:87
 msgid "Accounting"
-msgstr ""
+msgstr "Kế toán"
 
 #: Restapi.class.php:112
 msgid "Adding index to e_id field in the restapi_log_event_details table"
@@ -84,7 +84,7 @@ msgstr "Đã vô hiệu"
 
 #: views/page.restapi.php:61
 msgid "Down for Maintence"
-msgstr ""
+msgstr "Ngưng hoạt động để bảo trì"
 
 #: views/hook_userman.php:44
 msgid "Enable RestAPI for this user"
@@ -131,11 +131,11 @@ msgstr "Kế thừa"
 
 #: views/log_report.php:27
 msgid "Localized"
-msgstr ""
+msgstr "Đã xác định vị trí"
 
 #: views/log_report.php:28
 msgid "Localizing..."
-msgstr ""
+msgstr "Đang xác định vị trí..."
 
 #: Restapi.class.php:137
 msgid "Modifying data type of value field in the restapi_token_details table"
@@ -185,65 +185,67 @@ msgstr "Báo cáo API REST"
 
 #: views/token.php:4
 msgid "REST API Token"
-msgstr ""
+msgstr "REST API Token"
 
 #: restapi.i18n.php:8
 msgid "RESTful API module for your PBX."
-msgstr ""
+msgstr "Mô đun RESTful API  cho PBX của bạn."
 
 #: views/hook_userman.php:108 views/token.php:90
 msgid "Rate Limit"
-msgstr ""
+msgstr "Giới hạn tốc độ"
 
 #: views/page.restapi.php:121
 msgid "Request Logging"
-msgstr ""
+msgstr "Yêu cầu Logging"
 
 #: Restapi.class.php:571 views/page.restapi.php:34
 msgid "Rest API"
-msgstr ""
+msgstr "Rest API"
 
 #: views/page.restapi.php:42
 msgid ""
 "Rest API is used to manage API tokens for use in modules such as Rest Apps "
 "for your phones. From here you can edit general settings."
 msgstr ""
+"Rest API dùng để quản lý các token API trong các mô đun như Rest Apps tại "
+"điện thoại của bạn. Tại đây, bạn có thể chỉnh sửa các cài đặt chung."
 
 #: ari/views/tokens.php:38
 msgid "Save"
-msgstr ""
+msgstr "Lưu"
 
 #: views/log_report.php:33
 msgid "Server"
-msgstr ""
+msgstr "Máy chủ"
 
 #: views/page.restapi.php:54
 msgid "Server Status"
-msgstr ""
+msgstr "Trạng thái của máy chủ"
 
 #: views/page.restapi.php:81 views/page.restapi.php:91
 msgid "Server Token"
-msgstr ""
+msgstr "Token của máy chủ"
 
 #: views/page.restapi.php:101 views/page.restapi.php:111
 msgid "Server Token Key"
-msgstr ""
+msgstr "Khóa Token của máy chủ"
 
 #: views/log_report.php:31
 msgid "Signature"
-msgstr ""
+msgstr "Chữ ký"
 
 #: ari/views/tokens.php:34 views/token.php:45
 msgid "Status"
-msgstr ""
+msgstr "Trạng thái"
 
 #: Restapi.class.php:24 views/token.php:103
 msgid "Submit"
-msgstr ""
+msgstr "Gửi đi"
 
 #: views/page.restapi.php:60
 msgid "Temporarly Disabed"
-msgstr ""
+msgstr "Bị vô hiệu tạm thời"
 
 #: views/hook_userman.php:9
 msgid ""
@@ -252,44 +254,53 @@ msgid ""
 "requires the Commercial End Point Manager to configure your devices as it "
 "needs to receive data from EPM for most applications to work correctly. "
 msgstr ""
+"Phần này được sử dụng kết hợp với các RESTful Phone Apps. Mô đun RESTful "
+"Phone Apps sẽ cho phép bạn truy cập vào hàng loạt các ứng dụng của điện "
+"thoại. Nó yêu cầu phải có trình quản lý điển cuối cho việc cấu hình các "
+"thiết bị của bạn khi nó nhận dữ liệu từ EPM để các ứng dụng có thể hoạt động "
+"chính xác. "
 
 #: views/log_report.php:26 views/log_report.php:57
 msgid "Time"
-msgstr ""
+msgstr "Thời gian"
 
 #: ari/views/tokens.php:23 ari/views/tokens.php:32 views/log_report.php:30
 #: views/token.php:37
 msgid "Token"
-msgstr ""
+msgstr "Token"
 
 #: ari/views/tokens.php:33 views/token.php:41
 msgid "Token Key"
-msgstr ""
+msgstr "Khóa Token"
 
 #: ari/views/tokens.php:4
 msgid "Tokens"
-msgstr ""
+msgstr "Các Token"
 
 #: Restapi.class.php:109
 msgid "Unable to add index to e_id field in restapi_log_event_details table"
 msgstr ""
+"Không thể thêm chỉ mục vào trường e_id trong bảng restapi_log_event_details"
 
 #: Restapi.class.php:122
 msgid "Unable to add index to time field in restapi_log_events table"
 msgstr ""
+"Không thể thêm chỉ mục vào trường thời gian trong bảng restapi_log_events"
 
 #: Restapi.class.php:135
 msgid ""
 "Unable to modify data type of value field in restapi_token_details table"
 msgstr ""
+"Không thể sửa đỏi kiểu dữ liệu của trường giá trị trong bảng "
+"restapi_token_details"
 
 #: views/token.php:23
 msgid "User"
-msgstr ""
+msgstr "Người dùng"
 
 #: Restapi.class.php:494
 msgid "User Primary Extension"
-msgstr ""
+msgstr "Người dùng máy nhánh chính"
 
 #: views/token.php:26
 msgid ""
@@ -297,45 +308,50 @@ msgid ""
 "be visable to the user in the user portal. Key will be deleted if/when user "
 "is"
 msgstr ""
+"Người dùng khóa này cần được kết hợp với. Các khóa sẽ được hiện trên trang "
+"người dùng và người dùng sẽ có thể nhìn thấy trong cổng người dùng. Khóa sẽ "
+"bị xóa nếu/ khi người dùng là"
 
 #: views/token.php:79
 msgid "Users"
-msgstr ""
+msgstr "Người dùng"
 
 #: views/token.php:79
 msgid "Users whos data this token may read and write"
-msgstr ""
+msgstr "Dữ liệu người dùng mà Token này có thể đọc và ghi được"
 
 #: views/page.restapi.php:38
 msgid "What is Rest API"
-msgstr ""
+msgstr "Rest API là gì"
 
 #: views/hook_userman.php:4
 msgid "What is RestAPI"
-msgstr ""
+msgstr "RestAPI là gì"
 
 #: views/page.restapi.php:136
 msgid ""
 "Whether to log requests to/from the server. This can be a very large amount "
 "of data."
 msgstr ""
+"Có nên ghi lại các yêu cầu đến/ đi của máy chủ hay không. Đây có thể là một "
+"lượng dữ liệu rất lớn."
 
 #: views/hook_userman.php:71
 msgid "Which extensions this user can control"
-msgstr ""
+msgstr "Máy nhánh nào mà người dùng này có thể kiểm soát"
 
 #: views/hook_userman.php:98
 msgid "Which modules this user can control"
-msgstr ""
+msgstr "Mô đun nào mà người dùng này có thể kiếm soát"
 
 #: views/hook_userman.php:29
 msgid "Yes"
-msgstr ""
+msgstr "Có"
 
 #: views/log_report.php:59
 msgid "click on data to expand"
-msgstr ""
+msgstr "Kích chon dữ liệu để mở rộng"
 
 #: views/token.php:97
 msgid "requests per hour"
-msgstr ""
+msgstr "Các yêu cầu trên một giờ"
