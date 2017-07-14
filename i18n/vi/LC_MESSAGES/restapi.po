@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-30 12:18-0700\n"
-"PO-Revision-Date: 2017-07-13 15:56+0200\n"
+"PO-Revision-Date: 2017-07-14 08:09+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese "
 "<http://weblate.freepbx.org/projects/freepbx/restapi/vi/>\n"
@@ -201,7 +201,7 @@ msgstr "Yêu cầu Logging"
 
 #: Restapi.class.php:571 views/page.restapi.php:34
 msgid "Rest API"
-msgstr "Rest API"
+msgstr "API đi theo cấu trúc REST"
 
 #: views/page.restapi.php:42
 msgid ""
@@ -267,7 +267,7 @@ msgstr "Thời gian"
 #: ari/views/tokens.php:23 ari/views/tokens.php:32 views/log_report.php:30
 #: views/token.php:37
 msgid "Token"
-msgstr "Token"
+msgstr "Token ( Một dạng mã xác thực)"
 
 #: ari/views/tokens.php:33 views/token.php:41
 msgid "Token Key"
