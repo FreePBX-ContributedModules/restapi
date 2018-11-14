@@ -248,6 +248,7 @@ class Api{
 		$h['url']			= $h['host'] . $h['uri'];
 
 		//get data associated with this token
+		$this->req->token_opts = isset($this->req->token_opts) ? $this->req->token_opts : new stdClass;
 		$opts = restapi_tokens_get($this->req->token, 'token');
 
 		if ($opts) {
@@ -256,7 +257,6 @@ class Api{
 			}
 		} else {
 			//add defaults
-			$this->req->token_opts = new StdClass;
 			$this->req->token_opts->token_status	= 'not_found';
 			$this->req->token_opts->users			= array();
 			$this->req->token_opts->modules			= array();
