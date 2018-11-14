@@ -2,7 +2,7 @@
 	<rawname>restapi</rawname>
 	<repo>standard</repo>
 	<name>REST API</name>
-	<version>13.0.21.1</version>
+	<version>13.0.21.2</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>AGPLv3</license>
 	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
@@ -13,6 +13,7 @@
 		<restapi_logs category="Reports">REST API Report</restapi_logs>
 	</menuitems>
 	<changelog>
+		*13.0.21.2* FREEPBX-18021 fix for PHP5.6
 		*13.0.21.1* FREEPBX-14434 Clicking REST API Report crashes GUI
 		*13.0.21* FREEPBX-13644 Fixes for MySQL 5.7.5 and higher
 		*13.0.20* New APIs added by the community: Add PUT method for conferences., Add DELETE method for the Conferences module.
