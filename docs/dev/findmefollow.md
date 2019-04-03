@@ -3,7 +3,7 @@ Find Me Follow Me
 
 # Overview of Find Me Follow Me
 
-Find Me Follow Me is a personal mini ringgroup tied directly to your extension. This way you can receive calls even when your out of the office, by simulatenously ringing your cellphone when someone calls your extension. 
+Find Me Follow Me is a personal mini ringgroup tied directly to your extension. This way you can receive calls even when you're out of the office, by simulatenously ringing your cellphone when someone calls your extension. 
 
 # Find Me Follow Me API
 
