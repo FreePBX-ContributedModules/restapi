@@ -12,16 +12,16 @@ Find Me Follow Me is a personal mini ringgroup tied directly to your extension. 
     GET admin/index.php/rest/findmefollow/users
 
 ### Response
-```{
+``{
     "4003": "Bryan"
-}```
+}``
 
 ## Get Individual Find Me Follow Me User
 
     GET admin/index.php/rest/findmefollow/users/:id
 
 ### Response
-```{
+``{
     "grpnum": "4003",
     "strategy": "ringallv2",
     "grptime": "20",
@@ -38,7 +38,7 @@ Find Me Follow Me is a personal mini ringgroup tied directly to your extension. 
     "voicemail": "default",
     "changecid": false,
     "fixedcid": "756483"
-}```
+}``
 
 ## Add or modify Individual Find Me Follow Me
 
@@ -104,7 +104,7 @@ fixedcid (**Fixed CID Value**)
 : _Optional_ *integer* - Fixed value to replace the CID with used with some of the modes above. Should be in a format of digits only with an option of E164 format using a leading "+".
 
 ### Response
-```
+``
 Response goes here
-```
+``
 
