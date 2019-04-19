@@ -86,7 +86,7 @@ We check the message signature to ensure that the message contents are as sent a
 $a = sha256($uri . ':' . strtolower($verb);
 $b = sha256($token . ':' . $nonce);
 $c = sha256(base64_encode($body);
-$data = sha256($a . ':' + $b . ':' . $c);
+$data = sha256($a . ':' . $b . ':' . $c);
 $key = ''; //user or server's token key
 
 $sig = hash_hmac('sha256', $data, $key);
