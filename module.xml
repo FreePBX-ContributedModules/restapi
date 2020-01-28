@@ -13,7 +13,7 @@
 		<restapi_logs category="Reports">REST API Report</restapi_logs>
 	</menuitems>
 	<changelog>
-		*16.0.1* Release 16.0 
+		*16.0.1alpha* 16.0.1 alpha release
 	</changelog>
 	<depends>
 		<module>userman ge 2.11.0beta2</module>
