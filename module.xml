@@ -2,7 +2,7 @@
 	<rawname>restapi</rawname>
 	<repo>standard</repo>
 	<name>REST API</name>
-	<version>15.0.1</version>
+	<version>16.0.1</version>
 	<publisher>Sangoma Technologies Corporation</publisher>
 	<license>AGPLv3</license>
 	<licenselink>http://www.gnu.org/licenses/agpl-3.0.txt</licenselink>
@@ -13,13 +13,14 @@
 		<restapi_logs category="Reports">REST API Report</restapi_logs>
 	</menuitems>
 	<changelog>
+		*16.0.1* Release 16.0 
 	</changelog>
 	<depends>
 		<module>userman ge 2.11.0beta2</module>
 		<module>core</module>
 	</depends>
 	<supported>
-		<version>15.0</version>
+		<version>16.0</version>
 	</supported>
 	<hooks>
 		<userman class="Userman" namespace="FreePBX\modules">
